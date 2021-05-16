@@ -11,7 +11,7 @@ source:
       - 0001-Install-udev-rules-inside-prefix.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
 
 requirements:
