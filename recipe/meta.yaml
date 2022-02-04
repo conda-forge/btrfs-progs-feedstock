@@ -1,4 +1,4 @@
-{% set version = "5.10.1" %}
+{% set version = "5.16.1" %}
 
 package:
   name: btrfs-progs
@@ -6,12 +6,12 @@ package:
 
 source:
   - url: https://mirrors.edge.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v{{ version }}.tar.xz
-    sha256: 1379cc731feae7f473ad9e37c845bbfb873381ef67b340f1a22fbca9a4da0344
+    sha256: 3da4da5361cf86bddda80edb4c4f30ea076cb4ebec29904fa08afc930ef9e1a8
     patches:
       - 0001-Install-udev-rules-inside-prefix.patch
 
 build:
-  number: 1
+  number: 0
   skip: true  # [not linux]
 
 requirements:
