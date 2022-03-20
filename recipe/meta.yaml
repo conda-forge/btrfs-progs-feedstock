@@ -61,7 +61,6 @@ about:
   license_file:
     - COPYING
     - libbtrfsutil/COPYING
-    - libbtrfsutil/COPYING.LESSER
   summary: Userspace utilities to manage btrfs filesystems.
 
 extra:
