@@ -40,6 +40,7 @@ requirements:
     - zstd >=1.0.0
     - zstd
     - zlib
+    - libudev
   run:
 
 test:
